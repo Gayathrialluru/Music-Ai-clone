@@ -126,6 +126,7 @@ export const mockSongs = [
 ];
 
 export const mockLanguages = [
+  // English and European Languages
   {
     id: 'english',
     name: 'English',
@@ -163,11 +164,93 @@ export const mockLanguages = [
     color: 'from-green-500 to-yellow-500'
   },
   {
+    id: 'russian',
+    name: 'Russian',
+    flag: '🇷🇺',
+    color: 'from-white to-blue-600'
+  },
+  {
+    id: 'dutch',
+    name: 'Dutch',
+    flag: '🇳🇱',
+    color: 'from-red-500 to-blue-500'
+  },
+  
+  // South Asian Languages
+  {
     id: 'hindi',
     name: 'Hindi',
     flag: '🇮🇳',
     color: 'from-orange-500 to-green-500'
   },
+  {
+    id: 'tamil',
+    name: 'Tamil',
+    flag: '🇮🇳',
+    color: 'from-red-600 to-yellow-500'
+  },
+  {
+    id: 'telugu',
+    name: 'Telugu',
+    flag: '🇮🇳',
+    color: 'from-blue-500 to-yellow-500'
+  },
+  {
+    id: 'bengali',
+    name: 'Bengali',
+    flag: '🇧🇩',
+    color: 'from-green-600 to-red-500'
+  },
+  {
+    id: 'punjabi',
+    name: 'Punjabi',
+    flag: '🇮🇳',
+    color: 'from-yellow-500 to-red-500'
+  },
+  {
+    id: 'urdu',
+    name: 'Urdu',
+    flag: '🇵🇰',
+    color: 'from-green-600 to-white'
+  },
+  {
+    id: 'marathi',
+    name: 'Marathi',
+    flag: '🇮🇳',
+    color: 'from-orange-500 to-blue-500'
+  },
+  {
+    id: 'gujarati',
+    name: 'Gujarati',
+    flag: '🇮🇳',
+    color: 'from-orange-600 to-green-500'
+  },
+  {
+    id: 'kannada',
+    name: 'Kannada',
+    flag: '🇮🇳',
+    color: 'from-red-500 to-yellow-600'
+  },
+  {
+    id: 'malayalam',
+    name: 'Malayalam',
+    flag: '🇮🇳',
+    color: 'from-green-500 to-red-600'
+  },
+  {
+    id: 'nepali',
+    name: 'Nepali',
+    flag: '🇳🇵',
+    color: 'from-blue-600 to-red-500'
+  },
+  {
+    id: 'sinhala',
+    name: 'Sinhala',
+    flag: '🇱🇰',
+    color: 'from-orange-500 to-green-600'
+  },
+  
+  // East Asian Languages
   {
     id: 'korean',
     name: 'Korean',
@@ -185,6 +268,136 @@ export const mockLanguages = [
     name: 'Mandarin',
     flag: '🇨🇳',
     color: 'from-red-600 to-yellow-500'
+  },
+  {
+    id: 'cantonese',
+    name: 'Cantonese',
+    flag: '🇭🇰',
+    color: 'from-red-500 to-white'
+  },
+  {
+    id: 'thai',
+    name: 'Thai',
+    flag: '🇹🇭',
+    color: 'from-red-500 to-blue-600'
+  },
+  {
+    id: 'vietnamese',
+    name: 'Vietnamese',
+    flag: '🇻🇳',
+    color: 'from-red-600 to-yellow-400'
+  },
+  
+  // Middle Eastern and African Languages
+  {
+    id: 'arabic',
+    name: 'Arabic',
+    flag: '🇸🇦',
+    color: 'from-green-600 to-white'
+  },
+  {
+    id: 'persian',
+    name: 'Persian',
+    flag: '🇮🇷',
+    color: 'from-green-500 to-red-500'
+  },
+  {
+    id: 'turkish',
+    name: 'Turkish',
+    flag: '🇹🇷',
+    color: 'from-red-600 to-white'
+  },
+  {
+    id: 'hebrew',
+    name: 'Hebrew',
+    flag: '🇮🇱',
+    color: 'from-blue-500 to-white'
+  },
+  {
+    id: 'swahili',
+    name: 'Swahili',
+    flag: '🇰🇪',
+    color: 'from-black to-red-500'
+  },
+  {
+    id: 'amharic',
+    name: 'Amharic',
+    flag: '🇪🇹',
+    color: 'from-green-500 to-red-500'
+  },
+  
+  // Other Major Languages
+  {
+    id: 'indonesian',
+    name: 'Indonesian',
+    flag: '🇮🇩',
+    color: 'from-red-500 to-white'
+  },
+  {
+    id: 'malay',
+    name: 'Malay',
+    flag: '🇲🇾',
+    color: 'from-blue-500 to-red-500'
+  },
+  {
+    id: 'tagalog',
+    name: 'Tagalog',
+    flag: '🇵🇭',
+    color: 'from-blue-500 to-red-500'
+  },
+  {
+    id: 'polish',
+    name: 'Polish',
+    flag: '🇵🇱',
+    color: 'from-white to-red-500'
+  },
+  {
+    id: 'czech',
+    name: 'Czech',
+    flag: '🇨🇿',
+    color: 'from-blue-500 to-red-500'
+  },
+  {
+    id: 'hungarian',
+    name: 'Hungarian',
+    flag: '🇭🇺',
+    color: 'from-red-500 to-green-500'
+  },
+  {
+    id: 'romanian',
+    name: 'Romanian',
+    flag: '🇷🇴',
+    color: 'from-blue-500 to-red-500'
+  },
+  {
+    id: 'greek',
+    name: 'Greek',
+    flag: '🇬🇷',
+    color: 'from-blue-500 to-white'
+  },
+  {
+    id: 'ukrainian',
+    name: 'Ukrainian',
+    flag: '🇺🇦',
+    color: 'from-blue-400 to-yellow-400'
+  },
+  {
+    id: 'swedish',
+    name: 'Swedish',
+    flag: '🇸🇪',
+    color: 'from-blue-500 to-yellow-400'
+  },
+  {
+    id: 'norwegian',
+    name: 'Norwegian',
+    flag: '🇳🇴',
+    color: 'from-red-500 to-blue-500'
+  },
+  {
+    id: 'finnish',
+    name: 'Finnish',
+    flag: '🇫🇮',
+    color: 'from-blue-500 to-white'
   }
 ];
 
