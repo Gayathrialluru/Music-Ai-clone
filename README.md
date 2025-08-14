@@ -1,11 +1,10 @@
-
-Spotify Clone with AI Song Suggestions
+Music player  with AI Song Suggestions
 
 Built using Emergent AI in just a few minutes from a single prompt.
 ADDED A CUSTOM AI-BASED MUSIC SUGGESTION FEATURE TAHT RECOMMENDS SONGS BASED ON USER PREFERENCES.
 
 Features:
-Spotify-style UI (Home, Search, Player)
+MUISC PLAYER UI (Home, Search, Player)
 
 AI-powered song recommendations
 
@@ -17,7 +16,7 @@ How I Built This:
 
 Sign in to Emergent AI (https://emergent.sh)
 
-Enter the prompt: "Build a Spotify clone with AI song suggestion feature"
+Enter the prompt: "Build a music player with AI song suggestion feature"
 
 Let Emergent generate the full code
 
