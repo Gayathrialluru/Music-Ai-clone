@@ -195,18 +195,18 @@ const MoodSuggestions = ({ onPlaySong }) => {
             </p>
           </div>
 
-          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-4 max-h-96 overflow-y-auto">
+          <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 gap-3 max-h-[600px] overflow-y-auto">
             {mockLanguages.map((language) => (
               <Card
                 key={language.id}
-                className="cursor-pointer transition-all duration-300 hover:scale-105 bg-gray-900 border-gray-700 hover:border-gray-600"
+                className="cursor-pointer transition-all duration-300 hover:scale-105 bg-gray-900 border-gray-700 hover:border-gray-600 min-h-[80px]"
                 onClick={() => selectLanguage(language)}
               >
                 <CardContent className="p-3 text-center space-y-2">
-                  <div className={`w-10 h-10 mx-auto rounded-full bg-gradient-to-r ${language.color} flex items-center justify-center text-lg`}>
+                  <div className={`w-8 h-8 mx-auto rounded-full bg-gradient-to-r ${language.color} flex items-center justify-center text-sm`}>
                     {language.flag}
                   </div>
-                  <h3 className="text-xs font-medium text-white truncate">{language.name}</h3>
+                  <h3 className="text-[10px] font-medium text-white truncate leading-tight">{language.name}</h3>
                 </CardContent>
               </Card>
             ))}
