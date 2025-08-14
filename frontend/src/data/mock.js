@@ -499,6 +499,62 @@ export const mockMoodSuggestions = {
           mood: 'happy',
           language: 'hindi'
         }
+      ],
+      tamil: [
+        {
+          id: '25',
+          title: 'Vaathi Coming',
+          artist: 'Anirudh Ravichander',
+          album: 'Master',
+          duration: '4:05',
+          cover: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop',
+          isLiked: true,
+          isPlaying: false,
+          mood: 'happy',
+          language: 'tamil'
+        }
+      ],
+      telugu: [
+        {
+          id: '26',
+          title: 'Butta Bomma',
+          artist: 'Armaan Malik',
+          album: 'Ala Vaikunthapurramuloo',
+          duration: '4:32',
+          cover: 'https://images.unsplash.com/photo-1494790108755-2616c5e7b8ee?w=300&h=300&fit=crop',
+          isLiked: false,
+          isPlaying: false,
+          mood: 'happy',
+          language: 'telugu'
+        }
+      ],
+      punjabi: [
+        {
+          id: '27',
+          title: 'Laembadgini',
+          artist: 'Diljit Dosanjh',
+          album: 'CON.FI.DEN.TIAL',
+          duration: '3:45',
+          cover: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop',
+          isLiked: true,
+          isPlaying: false,
+          mood: 'happy',
+          language: 'punjabi'
+        }
+      ],
+      arabic: [
+        {
+          id: '28',
+          title: 'Ya Msafer',
+          artist: 'Mohamed Abdel Wahab',
+          album: 'Classic Arabic',
+          duration: '4:20',
+          cover: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop',
+          isLiked: false,
+          isPlaying: false,
+          mood: 'happy',
+          language: 'arabic'
+        }
       ]
     }
   },
